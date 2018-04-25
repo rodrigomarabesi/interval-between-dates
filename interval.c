@@ -39,6 +39,7 @@ main(){
 	
 	dias = intervalo(mes1, dia1, mes2, dia2, bissexto(resp));
 	printf("\n\nIntervalo entre essas datas: %d dias corridos\n\n", dias);
+	system("pause");
 	return 0;
 }
 
